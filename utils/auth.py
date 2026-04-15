@@ -1,14 +1,11 @@
 import requests
-from utils.config import BASE_URL, USERNAME, PASSWORD
+from utils.config import BASE_URL
 
 
 def get_token():
     url = f"{BASE_URL}/login"
 
-    payload = {
-        "username": USERNAME,
-        "password": PASSWORD
-    }
+    payload = {"name":"test", "password":"123"}
 
     response = requests.post(url, json=payload)
 

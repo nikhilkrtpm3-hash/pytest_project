@@ -1,6 +1,22 @@
 {
   "user": {
-    "name": "nikhil",
-    "job": "QA"
-  }
+  "name": "nikhil_user",
+  "email": "nikhil.kumar@testmail.com",
+  "password": "Test@1234",
+  "title": "Mr",
+  "birth_date": "15",
+  "birth_month": "08",
+  "birth_year": "1998",
+  "firstname": "Nikhil",
+  "lastname": "Kumar",
+  "company": "Tech Solutions Pvt Ltd",
+  "address1": "123 Sector 45",
+  "address2": "Near Cyber Hub",
+  "country": "India",
+  "zipcode": "122003",
+  "state": "Haryana",
+  "city": "Gurgaon",
+  "mobile_number": "9876543210"
+},
+  "delete_email": "nikkku@gmail.com"
 }

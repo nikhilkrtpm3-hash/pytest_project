@@ -1,0 +1,8 @@
+all_product="/api/productsList"
+brand_list="/api/brandsList"
+search_product="/api/searchProduct"
+verify_login="/api/verifyLogin"
+create_account="/api/createAccount"
+delete_account="/api/deleteAccount"
+update_account="/api/updateAccount"
+get_user_by_email="api/getUserDetailByEmail"

@@ -1,15 +1,19 @@
-def test_get_users(api_client):
-    response = api_client.get("/users")
+import requests
 
-    assert response.status_code == 200
-
+from api.endpoints import create_account
+from utils.helpers import load_test_data
+from utils.config import  HEADERS,BASE_URL
 
 def test_create_user(api_client):
-    payload = {
-        "name": "nikhil",
-        "job": "QA Engineer"
-    }
+    data = load_test_data()
 
-    response = api_client.post("/users", payload)
-
-    assert response.status_code == 201
+    payload = data["user"]
+    print()
+    url=f"{BASE_URL}{create_account}"
+    print(url)
+    response = requests.post(url, data=payload, headers=HEADERS)
+    data1=response.json()
+    print(data1)
+    assert response.status_code == 200
+    assert data1["responseCode"] == 400
+    assert data1["message"] == "Email already exists!"
