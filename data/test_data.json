@@ -1,7 +1,7 @@
 {
   "user": {
   "name": "nikhil_user",
-  "email": "nikhil.kumar@testmail.com",
+  "email": "nikhil.kumar1@testmail.com",
   "password": "Test@1234",
   "title": "Mr",
   "birth_date": "15",
@@ -18,5 +18,6 @@
   "city": "Gurgaon",
   "mobile_number": "9876543210"
 },
-  "delete_email": "nikkku@gmail.com"
+  "delete_email": "nikkku@gmail.com",
+  "email": "nikhil.kumar1@testmail.com"
 }

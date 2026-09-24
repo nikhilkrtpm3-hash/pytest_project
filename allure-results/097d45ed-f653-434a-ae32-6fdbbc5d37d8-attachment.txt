@@ -1,0 +1,6 @@
+DEBUG    utils.logger:test_user.py:12 Creating user with endpoint: /api/createAccount
+DEBUG    urllib3.connectionpool:connectionpool.py:1049 Starting new HTTPS connection (1): automationexercise.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://automationexercise.com:443 "POST /api/createAccount HTTP/1.1" 200 None
+DEBUG    utils.logger:test_user.py:15 Create-user response status: 200
+DEBUG    utils.logger:test_user.py:16 Create-user response code: 400
+INFO     utils.logger:test_user.py:20 user created successfully

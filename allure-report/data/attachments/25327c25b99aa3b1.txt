@@ -1,0 +1,6 @@
+DEBUG    utils.logger:test_user.py:31 Looking up user by email with endpoint: /api/getUserDetailByEmail
+DEBUG    urllib3.connectionpool:connectionpool.py:1049 Starting new HTTPS connection (1): automationexercise.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://automationexercise.com:443 "GET /api/getUserDetailByEmail?email=nikhil.kumar1%40testmail.com HTTP/1.1" 200 None
+DEBUG    utils.logger:test_user.py:39 Get-user response status: 200
+DEBUG    utils.logger:test_user.py:40 Get-user response code: 200
+INFO     utils.logger:test_user.py:45 user found with the give email

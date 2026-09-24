@@ -1,0 +1,4 @@
+2026-09-19 08:49:18,717 - utils.logger - DEBUG - Looking up user by email with endpoint: /api/getUserDetailByEmail
+2026-09-19 08:49:20,035 - utils.logger - DEBUG - Get-user response status: 200
+2026-09-19 08:49:20,036 - utils.logger - DEBUG - Get-user response code: 200
+2026-09-19 08:49:20,036 - utils.logger - INFO - user found with the give email
