@@ -1,0 +1,5 @@
+2026-09-25 08:38:17,202 - utils.logger - DEBUG - Sending POST request to product-list endpoint: /api/productsList
+2026-09-25 08:38:17,978 - utils.logger - DEBUG - Wrong-method response status: 200
+2026-09-25 08:38:17,978 - utils.logger - DEBUG - Wrong-method response code: 405
+2026-09-25 08:38:17,979 - utils.logger - DEBUG - Wrong-method response message: This request method is not supported.
+2026-09-25 08:38:17,979 - utils.logger - INFO - Product-list endpoint returned the expected HTTP response

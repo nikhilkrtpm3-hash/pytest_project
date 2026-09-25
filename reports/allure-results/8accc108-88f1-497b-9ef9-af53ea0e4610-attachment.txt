@@ -1,0 +1,4 @@
+2026-09-25 08:38:06,150 - utils.logger - DEBUG - Fetching brand list with endpoint: /api/brandsList
+2026-09-25 08:38:15,261 - utils.logger - DEBUG - Brand-list response status: 200
+2026-09-25 08:38:15,262 - utils.logger - DEBUG - Brand-list response code: 200
+2026-09-25 08:38:15,263 - utils.logger - INFO - Brand list fetched successfully

@@ -1,0 +1,4 @@
+2026-09-25 08:38:18,009 - utils.logger - DEBUG - Creating user with endpoint: /api/createAccount
+2026-09-25 08:38:18,803 - utils.logger - DEBUG - Create-user response status: 200
+2026-09-25 08:38:18,804 - utils.logger - DEBUG - Create-user response code: 400
+2026-09-25 08:38:18,805 - utils.logger - INFO - user created successfully

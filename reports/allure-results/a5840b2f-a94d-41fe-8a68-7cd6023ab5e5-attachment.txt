@@ -1,0 +1,4 @@
+2026-09-25 08:38:16,172 - utils.logger - DEBUG - Fetching product list with endpoint: /api/productsList
+2026-09-25 08:38:17,167 - utils.logger - DEBUG - Product-list response status: 200
+2026-09-25 08:38:17,168 - utils.logger - DEBUG - Product-list response code: 200
+2026-09-25 08:38:17,170 - utils.logger - INFO - Product list fetched successfully
